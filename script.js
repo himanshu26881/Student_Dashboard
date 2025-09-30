@@ -420,7 +420,7 @@ function addDemoData() {
         { id: '1', studentId: '1', studentName: 'Aditya Kumar', studentRollNo: '03', bookTitle: 'Introduction to Python', status: 'Issued', date: '2025-10-01' },
         { id: '2', studentId: '2', studentName: 'Himanshu Kumar', studentRollNo: '33', bookTitle: 'Web Development Basics', status: 'Issued', date: '2025-10-02' },
         { id: '3', studentId: '3', studentName: 'Lekh Raj soni ', studentRollNo: '05', bookTitle: 'Data Science Fundamentals', status: 'Returned', date: '2025-10-03' },
-        { id: '4', studentId: '4', studentName: 'Shreya Shambhavi', studentRollNo: '52', bookTitle: 'Machine Learning Guide', status: 'Issued', date: '2025-10-04' }
+        { id: '4', studentId: '4', studentName: 'Puja Jana', studentRollNo: '34', bookTitle: 'Machine Learning Guide', status: 'Issued', date: '2025-10-04' }
     ];
     
     libraryRecords.push(...addLibraryRecords);
@@ -441,4 +441,5 @@ function initializeDashboard() {
         themeIcon.textContent = '☀️';
         themeText.textContent = 'Light Mode';
     }
+
 }
